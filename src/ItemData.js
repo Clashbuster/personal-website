@@ -114,6 +114,12 @@ export const experience = [
 
 export const projects = [
     {
+        name: "SnapDraft",
+        subTitle: "Novel drafting website",
+        description: "A website designed to streamline the novel writing process.",
+        link: 'http://thesnapdraft.com/'
+    },
+    {
         name: "Job's the Job, Law's the Law",
         subTitle: "Ya fiction novel",
         description: "Young Gable is excited to enter the wizard hunting business until he realizes he's turning into one himself",

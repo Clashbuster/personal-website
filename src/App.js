@@ -14,6 +14,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
 import Nav from 'react-bootstrap/Nav'
+import '../src/App.css'
 
 class App extends React.Component {
 constructor(){
@@ -22,7 +23,12 @@ constructor(){
     browsing: 0,
     type: 'Skill'
   }
+  // this.doBackground()
 }
+
+// doBackground(){
+//   document.body.style = "background-image: url('../forZach.jpg')";
+// }
 
 
 componentDidUpdate(){
@@ -90,7 +96,7 @@ checkDisplayBack(){
   render(){
   return (
 
-      <Container>
+      <Container >
           {/* <Row> */}
           <Navbar bg="light" variant="light">
               <Navbar.Brand href="#home">Taylor Allan Coon</Navbar.Brand>
