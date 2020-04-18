@@ -7,13 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body, html {
+body,html {
   height: 100%;
   margin: 0;
-  background-image: url(../src/portfoliobackground.jpg);
+  background-image: url(../src/portfoliobackground.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pillar { transition: all .2s ease-in-out; }
+.pillar:hover { transform: scale(1.1); }

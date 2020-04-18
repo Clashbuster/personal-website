@@ -28,6 +28,7 @@ getImage(){
 
     render(){
         return(
+            <div className="pillar">
                 <Card onClick={e => this.handleClick(e)}>
                         <Card.Body>
                         <Card.Text>
@@ -36,6 +37,7 @@ getImage(){
                         </Card.Body>
                     <Card.Img variant="bottom" src={this.getImage()} />
                 </Card>
+            </div>
         )
     }
 

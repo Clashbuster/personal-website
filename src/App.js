@@ -98,17 +98,17 @@ checkDisplayBack(){
 
       <Container >
           {/* <Row> */}
-          <Navbar bg="light" variant="light">
-              <Navbar.Brand href="#home">Taylor Allan Coon</Navbar.Brand>
-              <Nav justify>
-                <Nav.Item>
+          <Navbar bg="light" className="mr-auto" variant="light">
+              <Navbar.Brand className="mr-auto" href="#home">Taylor Allan Coon</Navbar.Brand>
+              <Nav className="mr-auto" justify>
+                <Nav.Item className="mr-auto">
                   <div>
                     taylor.allan.coon@gmail.com
                     817-733-6127
                   </div>
-                </Nav.Item>
-                    <Nav.Link href="https://github.com/Clashbuster">Github</Nav.Link>     
-                <Nav.Item>
+                </Nav.Item >
+                    <Nav.Link className="mr-auto" href="https://github.com/Clashbuster">Github</Nav.Link>     
+                <Nav.Item className="mr-auto">
                 {this.checkDisplayBack()}
                 </Nav.Item>
               </Nav>

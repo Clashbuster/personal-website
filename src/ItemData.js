@@ -1,13 +1,13 @@
 export const skills = [
     {
         name: 'Javascript',
-        subTitle: "specialist",
+        subTitle: "Wizard",
         description: '',
         link: ''
     },
     {
         name: 'Typescript',
-        subTitle: "specialist",
+        subTitle: "Wizard",
         description: '',
         link: ''
     },
@@ -19,7 +19,7 @@ export const skills = [
     },
     {
         name: 'React',
-        subTitle: "skilled",
+        subTitle: "Wizard",
         description: '',
         link: ''
     },
@@ -37,13 +37,13 @@ export const skills = [
     },
     {
         name: 'HTML5',
-        subTitle: "skilled",
+        subTitle: "Wizard",
         description: '',
         link: ''
     },
     {
         name: 'CSS3',
-        subTitle: "skilled",
+        subTitle: "specialist",
         description: '',
         link: ''
     },
@@ -76,10 +76,46 @@ export const skills = [
         subTitle: "professional",
         description: "Been a prolific artist for several years with several commissions and countless pieces",
         link: 'https://www.instagram.com/neferpitounchained/'
-    }
+    },
+    {
+        name: 'Express.js',
+        subTitle: "skilled",
+        description: '',
+        link: ''
+    },
+    {
+        name: 'MongoDB',
+        subTitle: "skilled",
+        description: '',
+        link: ''
+    },
+    {
+        name: 'Bootstrap',
+        subTitle: "skilled",
+        description: '',
+        link: ''
+    },
+    {
+        name: 'Rust',
+        subTitle: "skilled",
+        description: '',
+        link: ''
+    },
+    {
+        name: 'C#',
+        subTitle: "skilled",
+        description: '',
+        link: ''
+    },
 ]
 
 export const experience = [
+    {
+        name: 'Neddie',
+        subTitle: "Full Stack Software Developer",
+        description: "Built pages for neddie's social impact platform primary stack included Typescript, React, Node.js",
+        link: 'https://www.neddie.co/'
+    },
     {
         name: 'Walgreens',
         subTitle: "Manager",
@@ -114,9 +150,15 @@ export const experience = [
 
 export const projects = [
     {
+        name: "Tarcade",
+        subTitle: "Board game arcade featuring several board games including japanese GO",
+        description: "React, CSS, HTML",
+        link: 'http://tarcadegames.com/'
+    },
+    {
         name: "SnapDraft",
         subTitle: "Novel drafting website",
-        description: "A website designed to streamline the novel writing process.",
+        description: "A website designed to streamline the novel writing process. React, Ruby on rails, HTML, CSS, PostgreSQL, Chart.js",
         link: 'http://thesnapdraft.com/'
     },
     {
